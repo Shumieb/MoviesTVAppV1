@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+
+}
+
+.sideNav {
+    flex: 1;
+}
+
+.main {
+    flex: 3;
+}

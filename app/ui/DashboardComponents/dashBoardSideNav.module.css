@@ -1,0 +1,63 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 12px 8px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 6px;
+}
+
+.userInfo {
+    background-color: var(--bg);
+    height: 100%;
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.userImage {
+    border: 2px solid var(--text);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userBio {
+    color: var(--textDark);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.userBioIcon {
+    padding-top: 2px;
+}
+
+.platformHeading {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    margin-bottom: 16px;
+    background-color: var(--bg);
+    border: 4px solid var(--bg);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.platformHeadingIcon {
+    padding-top: 4px;
+}
+
+.platformHeading:hover .platformHover {
+    color: var(--textDark);
+}
